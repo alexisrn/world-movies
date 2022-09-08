@@ -1,0 +1,44 @@
+#navBar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #121212;
+}
+
+
+
+#navBar h2{
+    font-family: 'Orbitron', sans-serif;
+    
+}
+
+#navBar h2 a {
+    display:flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.formSearch input{
+    height: 30px;
+    border-radius: 10px;
+    border:0.1rem solid #F7D354;
+    background-color: transparent;
+    color:#F7D354;
+}
+
+.formSearch button{
+    margin-left:10px;
+
+    border:none;
+    border-radius: 10px;
+    background-color: transparent;
+    color:#F7D354;
+    cursor: pointer;
+}
+.formSearch button:hover{
+    color:#b8930c;
+}
+
+
+

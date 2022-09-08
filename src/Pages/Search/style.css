@@ -1,0 +1,51 @@
+.container .title{
+    color:#fff;
+    font-size: 2.5em;
+    align-items: center;
+    margin: 2rem 0 1rem 36rem;
+}
+
+.title .query-text{
+    color: #F7D354;
+}
+
+.moviesContainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.moviesContainer div{
+
+    font-size:11px;
+    width: 18%;
+    color: rgb(255, 255, 255);
+    margin-bottom: 2.5rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #111;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.moviesContainer div:hover{
+    background-color: rgb(51, 51, 51);
+}
+
+.moviesContainer div img,
+.moviesContainer div h2,
+.moviesContainer div p{
+    margin-bottom: 0.7rem;
+}
+.moviesContainer div svg{
+    color: #F7D354;
+}
+
+.moviesContainer div a{
+    font-size: 15px;
+    margin-left: 4.5rem;
+}

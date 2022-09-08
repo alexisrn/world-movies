@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yanone Kaffeesatz', sans-serif;;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color:#F7D354;
+}
+
+a:hover{
+    color: #b8930c;
+}
